@@ -1,0 +1,13 @@
+org: vanessaandrade85
+app: aws-python
+service: phase3
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+
+functions:
+  hello:
+    handler: handler.hello
